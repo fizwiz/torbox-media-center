@@ -8,7 +8,7 @@ services:
         volumes:
             - /home/$(whoami)/torbox:/torbox
         environment:
-            - TORBOX_API_KEY=<EDIT_THIS_KEY>
+            - TORBOX_API_KEY=<211786e2-0251-4165-9096-2c267f17eed4>
             - MOUNT_METHOD=strm
             - MOUNT_PATH=/torbox
         image: anonymoussystems/torbox-media-center:main
